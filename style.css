@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Open Sans;
+}
+body {
+    background: var(--020-a-18, #020A18);
+}
+a{
+    text-decoration: none;
+}
+button {
+    border: none;
+    background: var(--3-a-68-b-8, #3A68B8);
+    color: var(--ffffff, #FFF);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+/* HEADER */
+#header {
+    padding: 20px 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    display: flex;
+    align-items: end;
+}
+.header-logo h3 {
+color: var(--3-a-68-b-8, #3A68B8);
+font-size: 22.545px;
+font-weight: 600;line-height: normal;
+}
+.header-links a {
+color: var(--ffffff, #FFF);
+font-size: 16px;
+font-weight: 600;
+margin: 0 20px;
+}
+.header button {
+padding: 10px 25px;
+border-radius: 5px;
+font-size: 16px;
+font-weight: 600;
+}
+/* HEADER */
+
+
+
+/* ARTIFICIAL */
+#artificial{
+    padding: 100px 0;
+}
+.artificial {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.artificial-title h4 {
+color: var(--3-a-68-b-8, #3A68B8);
+font-size: 18px;
+font-weight: 600;
+line-height: 28.8px ; /*  */
+text-transform: uppercase;
+}
+.artificial-title h1{
+color: var(--ffffff, #FFF);
+font-size: 55px;
+font-weight: 800;
+line-height: 71.5px; /*  */
+}
+.artificial-title p {
+    color: var(--ffffff, #817a7a);
+font-size: 18px;font-weight: 600;
+line-height: 28.8px; /*  */
+margin: 30px 0;
+}
+.artificial-buttons {
+    display: flex;
+}
+.artificial-buttons button{
+    border-radius: 5px;
+    padding: 12px 30px;
+    margin: 0 5px;
+}
+.artificial-icon {
+    display: flex;
+    align-items: center;
+}.artificial-icon .icon{
+    margin: 0 5px;
+}
+/* ARTIFICIAL */
+/* LOGOS */
+#logo{
+    padding: 50px 0;
+
+}
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* LOGOS */
+
+
+/* APPLY */
+#apply{
+    padding: 150px 0;
+}
+.apply{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apply-title h1{
+    color: var(--ffffff, #FFF);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px; /*  */
+}
+.apply-title p{
+color: var(--ffffff, #9c9393);
+font-size: 16px;
+font-weight: 600;
+line-height: 25.6px; /*  */
+margin: 30px 0;
+}
+.apply-title button{
+padding: 10px 20px;
+border-radius: 5px;
+}
+/* APPLY */
+/* BLOCK */
+#blocks {
+    padding: 100px 0;
+}
+.blocks{
+    display: flex;
+    justify-content: space-evenly;
+}
+.block{
+padding: 60px 0 0 0;
+width: 412.963px;
+height: 418px;
+border-radius: 10px;
+background: linear-gradient(180deg, rgba(190, 184, 184, 0.2) -41.9%, #FFF 115.68%);
+backdrop-filter: blur(100px);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.block img{
+    width: 100px;
+    height: 100px;
+}
+.block h3{
+    margin: 30px 0;
+color: var(--ffffff, #FFF);
+text-align: center;
+font-size: 25px;
+font-weight: 700;
+line-height: 31.25px; /*  */
+}
+.block p{
+    color: var(--ffffff, #f0e6e6);
+text-align: center;
+font-size: 16px;
+font-weight: 600;
+line-height: 25.6px; /*  */
+}
+/* BLOCK */
+
+
+
+
+/* ABOUT */
+#about {
+    padding: 70px 0;
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-title h1{
+    color: var(--ffffff, #FFF);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px ; /* */
+}
+.about-title p{
+    color: var(--ffffff, #9c9393);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25.6px; /*  */
+    margin: 20px 0;
+}
+
+/* ABOUT */
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.footer-title h4{
+color: var(--3-a-68-b-8, #3A68B8);
+font-size: 18px;
+font-weight: 600;
+}
+.footer-title p{
+color: var(--ffffff, #9c9393);
+font-size: 16px;
+font-weight: 600;
+line-height: 25.6px; /*  */
+margin: 20px 0;
+}
+.about-title h3{
+color: var(--ffffff, #FFF);
+font-size: 14px;
+font-weight: 600;
+margin: 10px 0;
+}
+.footer-icon{
+margin: 0 10px 0 0;
+}
+footer-title h2{
+color: var(--ffffff, #FFF);
+font-family: sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.footer-media span {
+color: white;
+font-size: 30px;
+margin: 0 15px;
+}
+/* FOOTER */
+
+
